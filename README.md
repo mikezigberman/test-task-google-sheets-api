@@ -1,4 +1,4 @@
-# Python test task
+# Python Test Task
 
 ## The task is:
 
