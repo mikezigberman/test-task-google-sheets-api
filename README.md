@@ -1,6 +1,27 @@
-# Python Test Task
+# Test Job for Middle Python Developer Position
+
+## :page_with_curl:    Contents
+
+- [The task is:](#the-task-is)
+    - [Minimal functionality](#minimal-functionality)
+    - [Advanced functionality](#advanced-functionality)
+- [Technology stack](#technology-stack)
+- [Solution steps](#solution-steps)
+- [Part 1: Base settings](#placard-part-1:-base-settings) :white_check_mark:
+    - [Copying the table](#copying-the-table) :white_check_mark:
+    - [Getting the necessary Google API's and access rights](#step-2) :white_check_mark:
+- [Part 2: Backend](#technologist-creating-an-application) (:construction: in process)
+    - [Creating an environment](#сreating-an-environment) :white_check_mark:
+    - [Creating a Django Application](#creating-a-django-application) (:construction: in process)
+    - [Creating a PostgreSQL database](#creating-a-postgresql-database) (:construction: in process)
+    - [Merging a database with a Google table](#merging-a-database-with-a-google-table) (:construction: in process)
+- [Part 3: Frontend](#framed_picture-creating-an-application) (:construction: in process) <!-- :framed_picture:	-->
+    - [Website template development](#framed-picture-website-template-development) (:construction: in process) 
+- [Instructions for installing and running the project](#instructions-for-installing-and-running-the-project) (:construction: in process)
 
 ## The task is:
+
+### Minimal functionality
 
 ### You need to develop a script in Python 3, which will perform the following functions:
 
@@ -13,6 +34,8 @@
     
 3. Script works all the time to ensure data is updated online (please note that rows in Google Sheets table can be deleted, added and changed).
 
+### Advanced functionality
+
 ### Additions that will give extra points and raise potential pay:
 
 1. a. Packaging the solution in a docker container
@@ -20,8 +43,18 @@
     b. Development of a functionality to check if the "delivery deadline" from the table is met. If the deadline has passed, the script sends a notification to Telegram.
     
     c. Development of a single-page web application based on Django or Flask. Front-end React.
+    
+## Technology stack:
+
+![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
+![Django](https://img.shields.io/badge/-Django-0aad48?style=flat-square&logo=Django)
+![React](https://img.shields.io/badge/-React-2f3f52?style=flat-square&logo=React)
+![Postgresql](https://img.shields.io/badge/-PostgreSQL-%232c3e50?style=flat-square&logo=Postgresql)
+![Docker](https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white)
 
 ## Solution steps:
+
+### :placard: Part 1: Working with the table and getting the necessary Google API's and access rights 
 
 ### Step 1: Copying the table 
 
@@ -95,4 +128,24 @@
 
 <img width="1440" alt="Screenshot 2022-07-21 at 18 22 11" src="https://user-images.githubusercontent.com/30218257/180252637-d92cf6a5-1ece-467d-8560-dc7f3e7cd65c.png">
 
-### 🤩 First point is done 🤩
+### 🤩 First point is done 🤩 
+
+### Part 2: Creating a Django application
+
+## :technologist: Creating an application
+
+### Step 1: Creating an environment 
+
+    a. Open the terminal
+    
+    b. Go to the Desktop directory (with the command cd Desktop)
+    
+    c. Create a new folder for the project (with the command mkdir test-google-api)
+    
+    d. Go to the project directory (command cd test-google-api)
+
+    e. Create a virtual environment for the project (with the command virtualenv googleenv)
+    
+![Screen-Recording-2022-07-22-at-16 54 20-_online-video-cutter com_](https://user-images.githubusercontent.com/30218257/180456288-6c42c341-10d7-478e-8f10-c0313118f43a.gif)
+
+### Step 2: Creating a Django Application
