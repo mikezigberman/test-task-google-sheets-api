@@ -11,7 +11,7 @@
     - [Copying the table](#copying-the-table) :white_check_mark:
     - [Getting the necessary Google API's and access rights](#step-2) :white_check_mark:
 - [Part 2: Backend](#technologist-creating-an-application) (:construction: in process)
-    - [Creating an environment](#сreating-an-environment) :white_check_mark:
+    - [Step 1: Creating an environment](#step-1:-сreating-an-environment) :white_check_mark:
     - [Creating a Django Application](#creating-a-django-application) (:construction: in process)
     - [Creating a PostgreSQL database](#creating-a-postgresql-database) (:construction: in process)
     - [Merging a database with a Google table](#merging-a-database-with-a-google-table) (:construction: in process)
